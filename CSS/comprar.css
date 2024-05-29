@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.cartao,
+.pessoal,
+#btnFinalizar,
+.usuario {
+    margin-left: 3%;
+}
+
+.centro {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Chrome e outros */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

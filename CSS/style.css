@@ -1,0 +1,97 @@
+* {
+    font-family: Helvetica;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+}
+
+.about-product {
+    margin-top: 5%;
+}
+
+footer {
+    background-color: #DFD5BB;
+    color: white;
+    padding: 25px;
+    height: calc(100% + 25px);
+}
+
+/* Botão comprar */
+.about-product .container .row .row .col-sm-12 a {
+    width: calc(50% - 60px) !important;
+    text-align: center !important;
+}
+
+.about-product .btn-success img {
+    position: relative !important;
+    margin-right: 30px !important;
+    text-align: center !important;
+}
+
+.hideImg {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .hideImg {
+        display: flex;
+    }
+
+    .teste :nth-child(0) {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .imageMobile {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+    }
+
+    #myCarousel {
+
+        display: none;
+    }
+}
+
+.navbar .container-fluid #navbarNav .navbar-nav>.nav-link:nth-child(1) {
+    margin-top: 5% !important;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    margin-top: 22px;
+}
+
+/* Link */
+.navbar .container-fluid #navbarNav .navbar-nav .nav-item a {
+    margin-bottom: 27% !important;
+    margin-left: 30px;
+}
+
+/*Botão login*/
+
+.navbar .text-white {
+    margin-top: -2px;
+}
+.botaoComprar {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background: green;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    justify-content: center;
+}
